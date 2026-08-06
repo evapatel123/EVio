@@ -437,3 +437,331 @@ Institutional Transparency & Aid Appeals
 24. Tuitionskipper / TuitionFit Crowdsourced financial aid award comparisons
 25. Common Data Set Initiative Accessing the raw admissions data, institutional priorities, and waitlist statistics for specific colleges
 
+_________________
+22. Identifying the Right College
+
+User asks:
+• Which colleges are the best for an undergraduate program?
+• Top 10 colleges to prioritize for a Bachelor's in Mechanical Engineering.
+• Top 100 Medical Colleges in the World.
+• Which law colleges should I apply to in my area?
+• What Computer Science colleges are under my budget?
+
+EVio retrieves:
+• Top colleges list
+• Acceptance rates
+• Tuition fees
+• Scholarships available
+• Financial aid opportunities
+• Ratio of international students to total enrollment
+• Program rankings
+• Official university websites
+• Student reviews
+• Admission deadlines
+
+EVio considers:
+• Student goals
+• Intended major
+• Student's financial condition
+• Academic performance
+• Preferred study country
+• Career aspirations
+
+--------------------------------------------------
+
+23. Exploring Majors
+
+User asks:
+• Which engineering branch is best for me?
+• Should I choose Mechanical Engineering or Computer Science?
+• What careers are available after Biotechnology?
+• Which major has the highest salary?
+• Which major matches my interests?
+
+EVio retrieves:
+• Major descriptions
+• University curricula
+• Career pathways
+• Employment statistics
+• Salary reports
+• Industry demand
+• Alumni experiences
+
+EVio considers:
+• Student interests
+• Academic strengths
+• Career goals
+• Personality
+• Preferred work environment
+• Future job market
+
+--------------------------------------------------
+
+24. Writing the Best Essays
+
+User asks:
+• How can I write my college essay?
+• What should I include in my essay?
+• What mistakes should I avoid?
+• How long should my essay be?
+• Can you review my essay?
+
+EVio retrieves:
+• Common App essay guides
+• Successful sample essays
+• University essay prompts
+• Writing techniques
+• Admission officer advice
+• Grammar and style resources
+
+EVio considers:
+• Student achievements
+• Personal experiences
+• Leadership roles
+• Intended major
+• Writing style
+• Career aspirations
+
+--------------------------------------------------
+
+25. Tailoring a Personalized Roadmap
+
+User asks:
+• Create a roadmap for studying abroad.
+• How do I prepare for Ivy League universities?
+• What should I do in Class 11 and 12?
+• Build my timeline until college.
+• How should I divide my preparation between academics and extracurriculars?
+
+EVio retrieves:
+• Admission timelines
+• University requirements
+• Alumni journeys
+• Official application guides
+• Scholarship deadlines
+• Standardized testing schedules
+
+EVio considers:
+• Student goals
+• Current grade
+• Target universities
+• Preferred country
+• Academic profile
+• Available preparation time
+
+--------------------------------------------------
+
+26. Need for Recommendation Letters
+
+User asks:
+• Who should write my recommendation letter?
+• How many recommendation letters do I need?
+• What makes a strong recommendation?
+• When should I ask my teacher?
+• Can my internship mentor write one?
+
+EVio retrieves:
+• University requirements
+• Sample recommendation letters
+• Admission guidelines
+• Official FAQs
+• Best practices
+
+EVio considers:
+• Student achievements
+• Relationship with recommender
+• Intended major
+• University requirements
+• Extracurricular involvement
+
+--------------------------------------------------
+27. Perfect Portfolios
+
+User asks:
+
+"How should I start making my portfolio?"
+"How can I showcase my portfolio?"
+"What should I add to my portfolio?"
+"Why portfolio is necessary?"
+
+EVio retrieves:
+
+Guidance from top mentors online
+College websites
+Alumni portfolio
+Portfolio for different majors
+
+EVio considers:
+
+Interests & hobbies
+Student's home country
+Interested majors
+Student goals
+Financial condition
+
+_________________________
+28. Importance of Olympiads/National-Level Exams
+
+User asks:
+
+"What Olympiads should I aim for?"
+"Which exam is elite-level?"
+"In India, if you excel, you're like Advanced. Will you be welcomed in all major's programs?"
+"What exams should I aim for my master's program?"
+
+EVio retrieves:
+
+Guidance from top mentors online
+College websites
+Alumni portfolio
+Portfolio for different majors
+
+EVio considers:
+
+Interests & hobbies
+Student's home country
+Interested majors
+Student goals
+Financial condition
+
+_________________________
+
+29. Financial Tips for College Students
+
+User asks:
+
+"How should I spend money on my needs?"
+"Should I start part-time jobs?"
+"Should I take a student loan?"
+"How can I apply for financial aid?"
+
+EVio retrieves:
+
+Financial aid availability criteria
+College websites
+Alumni experiences
+Online mentors
+
+EVio considers:
+
+Financial condition
+Home country
+Desired country for further studies
+Average college overall fees
+
+___________________________
+
+30. Preparing for SAT
+
+User asks:
+
+"How can I prepare for SAT as a 10th grader from India?"
+"How should I prepare for SAT before the exam?"
+"Why should I give SAT?"
+"Suggest some YouTube channels to study for SAT."
+
+EVio retrieves:
+
+SAT official website
+Khan Academy
+Online resources
+
+EVio considers:
+
+Workload videos/channels
+Alumni channels
+Online resources
+Health-related channels
+
+_____________________________
+31. Hobbies as a Boon
+
+User asks:
+
+"What hobbies should I form today that will pay my bills tomorrow?"
+"How can I balance my reading habit in my CS degree?"
+"What hobbies will help me in my LLB?"
+"Suggest some hobbies based on my interests in Mechanical Engineering."
+
+EVio retrieves:
+
+College websites
+Online Mentors
+YouTube content
+Hobby ideas
+
+EVio considers:
+
+Student goals
+Financial condition
+Interests
+Passion projects
+Student hobbies
+
+_______________________
+32. Routine Draft
+
+User asks:
+
+"Help me balance my work with studies."
+"How can I make space for my hobbies in my routine?"
+"Make a routine chart for my hectic day."
+"How should my day look like as a CS student?"
+
+EVio considers:
+
+Student goals
+Interests
+Hobbies
+Student's home country
+
+_____________________________
+33. Maintaining Workload with Classes
+
+User asks:
+
+"How can I manage school, coaching, and extracurriculars together?"
+"How many hours should I study daily?"
+"How should I avoid burnout?"
+"Can you prepare a timetable according to my schedule?"
+
+EVio retrieves:
+
+Productivity techniques
+Time management resources
+Study routine examples
+Expert guidance
+
+EVio considers:
+
+School schedule
+Coaching timings
+Student goals
+Health and sleep schedule
+
+________________________________
+34. IELTS or TOEFL?
+
+User asks:
+
+"Should I take IELTS or TOEFL?"
+"Which one is accepted by my dream college?"
+"How should I prepare for the exam?"
+"When should I attempt it?"
+
+EVio retrieves:
+
+Official IELTS website
+Official TOEFL website
+College admission requirements
+Preparation resources
+
+EVio considers:
+
+Destination country
+Target colleges
+English proficiency
+Budget
+
+______________________
+
