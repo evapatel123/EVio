@@ -764,4 +764,94 @@ English proficiency
 Budget
 
 ______________________
+35. Official University Websites
+
+Purpose: Give EVio a reliable starting point for university research and
+reduce dependence on third-party summaries. Use official university sources
+for admissions, programs, tuition, deadlines, financial aid, and policies.
+Verify current information on the university site before presenting it as
+current.
+
+University official links:
+• Massachusetts Institute of Technology (MIT): https://www.mit.edu/
+• MIT Mechanical Engineering: https://meche.mit.edu/
+• Stanford University: https://www.stanford.edu/
+• Stanford Mechanical Engineering: https://me.stanford.edu/
+• University of California, Berkeley: https://www.berkeley.edu/
+• UC Berkeley Mechanical Engineering: https://me.berkeley.edu/
+• Carnegie Mellon University: https://www.cmu.edu/
+• Carnegie Mellon Mechanical Engineering: https://www.meche.engineering.cmu.edu/
+• Georgia Institute of Technology: https://www.gatech.edu/
+• Georgia Tech Mechanical Engineering: https://www.me.gatech.edu/
+• University of Michigan: https://umich.edu/
+• University of Michigan Mechanical Engineering: https://me.engin.umich.edu/
+• Purdue University: https://www.purdue.edu/
+• Purdue Mechanical Engineering: https://engineering.purdue.edu/ME/
+• University of Illinois Urbana-Champaign: https://illinois.edu/
+• Illinois Mechanical Science and Engineering: https://mechanical.illinois.edu/
+• Cornell University: https://www.cornell.edu/
+• Cornell Mechanical and Aerospace Engineering: https://www.mae.cornell.edu/
+• Princeton University: https://www.princeton.edu/
+• Princeton Mechanical and Aerospace Engineering: https://mae.princeton.edu/
+• California Institute of Technology (Caltech): https://www.caltech.edu/
+• Caltech Mechanical and Civil Engineering: https://www.mce.caltech.edu/
+• University of Texas at Austin: https://www.utexas.edu/
+• UT Austin Walker Department of Mechanical Engineering: https://www.me.utexas.edu/
+• Indian Institute of Technology Madras (IIT Madras): https://www.iitm.ac.in/
+• IIT Madras Mechanical Engineering: https://mech.iitm.ac.in/
+
+____________________________________
+36. How EVio should use university links:
+• Prefer the official university website over rankings sites for current facts.
+• Use the department or program page when answering major-specific questions.
+• Use official admissions pages for application requirements and deadlines.
+• Use official financial-aid and scholarship pages for funding information.
+• When comparing universities, cite the relevant official source for each major claim.
+• Treat rankings and third-party reviews as supplementary context, not primary authority.
+
+_____________________________________________
+37. Learning Resources and College Preparation
+
+Purpose: Give students high-quality starting points for building academic,
+technical, application, and college-readiness skills. Curate a small number
+of strong resources instead of overwhelming students with links.
+
+Core academic learning:
+• Khan Academy: https://www.khanacademy.org/
+• MIT OpenCourseWare: https://ocw.mit.edu/
+• OpenStax: https://openstax.org/
+• edX: https://www.edx.org/
+• Coursera: https://www.coursera.org/
+
+Programming and technical skills:
+• freeCodeCamp: https://www.freecodecamp.org/
+• Python official documentation: https://docs.python.org/3/
+• NumPy documentation: https://numpy.org/doc/
+• Matplotlib documentation: https://matplotlib.org/stable/
+
+Engineering and STEM exploration:
+• MIT OpenCourseWare: https://ocw.mit.edu/search/?d=Mechanical%20Engineering
+• MIT Mechanical Engineering: https://meche.mit.edu/
+• IIT Madras Mechanical Engineering: https://mech.iitm.ac.in/
+• NASA STEM: https://www.nasa.gov/stem/
+
+College admissions and testing:
+• College Board: https://www.collegeboard.org/
+• SAT Suite: https://satsuite.collegeboard.org/
+• Official Digital SAT Prep on Khan Academy: https://www.khanacademy.org/digital-sat
+• Common App: https://www.commonapp.org/
+• EducationUSA: https://educationusa.state.gov/
+
+English proficiency:
+• IELTS: https://www.ielts.org/
+• TOEFL: https://www.ets.org/toefl
+
+______________________________
+38. How EVio should recommend learning resources:
+• Match the resource to the student's goal, level, and available time.
+• Prefer free or openly accessible resources when they meet the need.
+• Prefer official course material or documentation for technical facts.
+• Give students a clear next step, such as one course, one chapter, or one practice set.
+• Avoid dumping long resource lists when two or three targeted resources are enough.
+
 
