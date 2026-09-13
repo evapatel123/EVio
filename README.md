@@ -4,7 +4,8 @@ Node.js**.
 EVio is designed to help students explore majors, research colleges, organize their academic goals, prepare
 college applications, discover resources, and track their progress throughout the college-planning process.
 The application uses a lightweight Node.js backend with JSON-based persistent storage. No frontend framework or
-external database is required.
+external database is required. 
+**NOTE : IF YOU WANT TO VIEW WHAT IT LOOKS LIKE, GO TO THE SCREENSHOTS FOLDER**
 > **Important:** The EVio chatbot is intentionally NOT handled by the Node.js backend. It is loaded separately
 through an iframe and can be connected to an existing Gradio/Hugging Face chatbot.
 ---
