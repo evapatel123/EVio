@@ -553,11 +553,7 @@ Because user data is stored in:
 ```text
 data/evio-data.json
 ```
-you should decide whether this file should be committed to GitHub.
-For a development or demo repository, you can keep the initial example data.
-For a real multi-user deployment, the JSON storage system should eventually be replaced with a proper database and
-authentication system.
-**Do NOT commit private user information or sensitive personal data to GitHub.**
+#######You should decide whether this file should be committed to GitHub. For a development or demo repository, you can keep the initial example data. For a real multi-user deployment, the JSON storage system should eventually be replaced with a proper database andauthentication system. Do NOT commit private user information or sensitive personal data to GitHub.
 ---
 # Stopping the Server
 To stop the EVio server, return to the terminal where it is running and press:
