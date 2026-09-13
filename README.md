@@ -787,4 +787,11 @@ EVio currently provides a functional prototype containing:
 - Persistent JSON backend
 ---
 # License
-This project is NOT OPEN SOURCE! 
+
+**EVio is proprietary software. All rights reserved.**
+
+The source code is publicly available for viewing and reference only. You may **not** use, copy, modify, distribute, reproduce, deploy, host, sublicense, sell, or create derivative works from this project without explicit written permission from the copyright holder.
+
+See the [`LICENSE`](./LICENSE) file for the complete terms.
+
+Copyright © 2026 Eva J Patel. All Rights Reserved.
