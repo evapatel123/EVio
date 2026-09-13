@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Computer Science",
+    "tags": [
+      "technology",
+      "logic",
+      "building",
+      "math",
+      "systems",
+      "coding",
+      "data"
+    ]
+  },
+  {
+    "name": "Software Engineering",
+    "tags": [
+      "technology",
+      "coding",
+      "building",
+      "systems",
+      "teamwork",
+      "design"
+    ]
+  },
+  {
+    "name": "Data Science",
+    "tags": [
+      "data",
+      "math",
+      "technology",
+      "research",
+      "analytics",
+      "coding"
+    ]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "tags": [
+      "technology",
+      "math",
+      "data",
+      "research",
+      "coding",
+      "systems"
+    ]
+  },
+  {
+    "name": "Information Technology",
+    "tags": [
+      "technology",
+      "systems",
+      "people",
+      "building",
+      "practical"
+    ]
+  },
+  {
+    "name": "Cybersecurity",
+    "tags": [
+      "technology",
+      "systems",
+      "logic",
+      "investigation",
+      "risk"
+    ]
+  },
+  {
+    "name": "Computer Engineering",
+    "tags": [
+      "technology",
+      "hardware",
+      "math",
+      "systems",
+      "building",
+      "physics"
+    ]
+  },
+  {
+    "name": "Electrical Engineering",
+    "tags": [
+      "engineering",
+      "hardware",
+      "math",
+      "physics",
+      "systems",
+      "building"
+    ]
+  },
+  {
+    "name": "Mechanical Engineering",
+    "tags": [
+      "engineering",
+      "physics",
+      "math",
+      "building",
+      "design",
+      "systems"
+    ]
+  },
+  {
+    "name": "Biomedical Engineering",
+    "tags": [
+      "engineering",
+      "biology",
+      "health",
+      "design",
+      "research",
+      "building"
+    ]
+  },
+  {
+    "name": "Civil Engineering",
+    "tags": [
+      "engineering",
+      "math",
+      "design",
+      "building",
+      "systems",
+      "impact"
+    ]
+  },
+  {
+    "name": "Chemical Engineering",
+    "tags": [
+      "engineering",
+      "chemistry",
+      "math",
+      "science",
+      "systems",
+      "research"
+    ]
+  },
+  {
+    "name": "Mathematics",
+    "tags": [
+      "math",
+      "logic",
+      "research",
+      "theory",
+      "analytics"
+    ]
+  },
+  {
+    "name": "Statistics",
+    "tags": [
+      "math",
+      "data",
+      "analytics",
+      "research",
+      "logic"
+    ]
+  },
+  {
+    "name": "Physics",
+    "tags": [
+      "physics",
+      "math",
+      "research",
+      "theory",
+      "science",
+      "systems"
+    ]
+  },
+  {
+    "name": "Biology",
+    "tags": [
+      "biology",
+      "science",
+      "research",
+      "health",
+      "lab",
+      "environment"
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "tags": [
+      "chemistry",
+      "science",
+      "lab",
+      "research",
+      "math"
+    ]
+  },
+  {
+    "name": "Environmental Science",
+    "tags": [
+      "environment",
+      "science",
+      "research",
+      "impact",
+      "field"
+    ]
+  },
+  {
+    "name": "Psychology",
+    "tags": [
+      "people",
+      "research",
+      "health",
+      "communication",
+      "behavior"
+    ]
+  },
+  {
+    "name": "Neuroscience",
+    "tags": [
+      "biology",
+      "health",
+      "research",
+      "science",
+      "data"
+    ]
+  },
+  {
+    "name": "Education",
+    "tags": [
+      "people",
+      "communication",
+      "impact",
+      "teaching",
+      "creativity"
+    ]
+  },
+  {
+    "name": "Business Administration",
+    "tags": [
+      "business",
+      "leadership",
+      "people",
+      "strategy",
+      "communication"
+    ]
+  },
+  {
+    "name": "Finance",
+    "tags": [
+      "business",
+      "math",
+      "data",
+      "analytics",
+      "risk",
+      "strategy"
+    ]
+  },
+  {
+    "name": "Accounting",
+    "tags": [
+      "business",
+      "math",
+      "analytics",
+      "detail",
+      "systems"
+    ]
+  },
+  {
+    "name": "Marketing",
+    "tags": [
+      "business",
+      "creativity",
+      "communication",
+      "people",
+      "data"
+    ]
+  },
+  {
+    "name": "Economics",
+    "tags": [
+      "business",
+      "math",
+      "data",
+      "research",
+      "strategy"
+    ]
+  },
+  {
+    "name": "Political Science",
+    "tags": [
+      "people",
+      "research",
+      "communication",
+      "policy",
+      "impact"
+    ]
+  },
+  {
+    "name": "Communications",
+    "tags": [
+      "communication",
+      "people",
+      "creativity",
+      "media",
+      "writing"
+    ]
+  },
+  {
+    "name": "English",
+    "tags": [
+      "writing",
+      "communication",
+      "creativity",
+      "humanities",
+      "research"
+    ]
+  },
+  {
+    "name": "Graphic Design",
+    "tags": [
+      "design",
+      "creativity",
+      "technology",
+      "communication",
+      "building"
+    ]
+  }
+]

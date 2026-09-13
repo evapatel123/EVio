@@ -1,0 +1,666 @@
+{
+  "profile": {
+    "name": "Student",
+    "grade": "High School Student",
+    "goal": "Explore college and career options"
+  },
+  "settings": {
+    "notifications": true,
+    "personalizedGuidance": true,
+    "reducedMotion": true,
+    "highContrast": true,
+    "largerText": true,
+    "hintsBeforeSolutions": true,
+    "theme": "rose-gold",
+    "reducedTransparency": true,
+    "reducedFlashing": false,
+    "focusIndicators": false,
+    "screenReaderOptimized": false,
+    "guidanceStyle": "balanced",
+    "explanationDepth": "medium",
+    "proactiveSuggestions": true,
+    "showConfidence": true,
+    "compactMode": false,
+    "glowIntensity": "high",
+    "backgroundEffects": true,
+    "cardOpacity": "airy",
+    "fontSize": "large",
+    "density": "compact"
+  },
+  "stats": {
+    "streak": 7,
+    "applicationProgress": 64,
+    "studyHours": 4.5,
+    "studyGoal": 6,
+    "exploreScore": 62
+  },
+  "tasks": [
+    {
+      "id": "task-2",
+      "title": "Complete major quiz",
+      "meta": "Major Advisor",
+      "due": "Today",
+      "tag": "MED",
+      "done": true
+    },
+    {
+      "id": "task-3",
+      "title": "Update academic goals",
+      "meta": "Planning",
+      "due": "Tomorrow",
+      "tag": "MED",
+      "done": true
+    },
+    {
+      "id": "task-4",
+      "title": "Check scholarship deadlines",
+      "meta": "Financial aid",
+      "due": "This week",
+      "tag": "LOW",
+      "done": true
+    },
+    {
+      "id": "task-b5178afb-971a-4a1e-ad8c-2aabd6ade85d",
+      "title": "Hello",
+      "meta": "Personal task",
+      "due": "This week",
+      "tag": "MED",
+      "done": true
+    }
+  ],
+  "schedule": [
+    {
+      "id": "slot-1",
+      "time": "4:00 PM",
+      "title": "Calculus review",
+      "meta": "45 min focus block",
+      "tone": "green"
+    },
+    {
+      "id": "slot-2",
+      "time": "5:00 PM",
+      "title": "College research",
+      "meta": "Compare 3 schools",
+      "tone": "pink"
+    },
+    {
+      "id": "slot-3",
+      "time": "7:30 PM",
+      "title": "Application work",
+      "meta": "Activities + notes",
+      "tone": "gold"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-1",
+      "title": "Explore majors",
+      "progress": 80
+    },
+    {
+      "id": "goal-2",
+      "title": "Research colleges",
+      "progress": 60
+    },
+    {
+      "id": "goal-3",
+      "title": "Build study habits",
+      "progress": 45
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "title": "Common App",
+      "category": "applications",
+      "label": "APPLICATIONS",
+      "description": "Application guidance, essays, deadlines, and requirements.",
+      "url": "https://www.commonapp.org/"
+    },
+    {
+      "id": "res-2",
+      "title": "BigFuture",
+      "category": "college",
+      "label": "COLLEGE SEARCH",
+      "description": "College search, planning tools, and scholarship resources.",
+      "url": "https://bigfuture.collegeboard.org/"
+    },
+    {
+      "id": "res-3",
+      "title": "Federal Student Aid",
+      "category": "financial",
+      "label": "FINANCIAL AID",
+      "description": "FAFSA information and federal financial aid guidance.",
+      "url": "https://studentaid.gov/"
+    },
+    {
+      "id": "res-4",
+      "title": "College Scorecard",
+      "category": "college",
+      "label": "COLLEGE DATA",
+      "description": "Compare college costs, outcomes, and institutional statistics.",
+      "url": "https://collegescorecard.ed.gov/"
+    },
+    {
+      "id": "res-5",
+      "title": "Khan Academy",
+      "category": "learning",
+      "label": "LEARNING",
+      "description": "Free academic practice and skill-building resources.",
+      "url": "https://www.khanacademy.org/"
+    },
+    {
+      "id": "res-6",
+      "title": "O*NET Online",
+      "category": "careers",
+      "label": "CAREERS",
+      "description": "Explore careers, skills, interests, and occupational pathways.",
+      "url": "https://www.onetonline.org/"
+    },
+    {
+      "id": "res-7",
+      "title": "BLS Occupational Outlook",
+      "category": "careers",
+      "label": "CAREER DATA",
+      "description": "Career information, job outlook, and occupational data.",
+      "url": "https://www.bls.gov/ooh/"
+    },
+    {
+      "id": "res-8",
+      "title": "Purdue OWL",
+      "category": "applications",
+      "label": "WRITING",
+      "description": "Writing, citation, and academic communication guidance.",
+      "url": "https://owl.purdue.edu/"
+    },
+    {
+      "id": "res-9",
+      "title": "NACAC",
+      "category": "college",
+      "label": "COLLEGE GUIDANCE",
+      "description": "Professional college admission counseling resources.",
+      "url": "https://www.nacacnet.org/"
+    }
+  ],
+  "quizResults": [
+    {
+      "id": "d6e45bff-3145-451c-86c6-a0cbc26b81c8",
+      "createdAt": "2026-09-12T21:04:47.824Z",
+      "direction": "business & strategy",
+      "score": 62,
+      "answers": [
+        0,
+        1,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "a04b5712-0cfd-48fe-8a8f-cb6f03c51256",
+      "createdAt": "2026-09-13T12:50:11.891Z",
+      "recommendation": "Computer Science",
+      "top": [
+        {
+          "major": "Computer Science",
+          "match": 100
+        },
+        {
+          "major": "Software Engineering",
+          "match": 86
+        },
+        {
+          "major": "Artificial Intelligence",
+          "match": 76
+        },
+        {
+          "major": "Computer Engineering",
+          "match": 66
+        },
+        {
+          "major": "Information Technology",
+          "match": 62
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "q001",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q470",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q398",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q326",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q254",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q182",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q110",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q038",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q435",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q363",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q291",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q219",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q147",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q075",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q003",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q472",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q400",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q328",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q256",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q184",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q112",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q040",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q437",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q365",
+          "optionIndex": 0
+        }
+      ],
+      "questionCount": 24
+    },
+    {
+      "id": "bb433552-99d7-4017-a3e3-44582c4245fe",
+      "createdAt": "2026-09-13T12:59:30.021Z",
+      "recommendation": "Economics",
+      "top": [
+        {
+          "major": "Economics",
+          "match": 100
+        },
+        {
+          "major": "Data Science",
+          "match": 90
+        },
+        {
+          "major": "Artificial Intelligence",
+          "match": 85
+        },
+        {
+          "major": "Statistics",
+          "match": 85
+        },
+        {
+          "major": "Chemistry",
+          "match": 81
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "q343",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q271",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q199",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q127",
+          "optionIndex": 2
+        },
+        {
+          "questionId": "q055",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q452",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q380",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q308",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q236",
+          "optionIndex": 0
+        },
+        {
+          "questionId": "q164",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q092",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q020",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q489",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q417",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q345",
+          "optionIndex": 3
+        },
+        {
+          "questionId": "q273",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q201",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q129",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q057",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q454",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q382",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q310",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q238",
+          "optionIndex": 1
+        },
+        {
+          "questionId": "q166",
+          "optionIndex": 1
+        }
+      ],
+      "questionCount": 24
+    }
+  ],
+  "study": {
+    "dailyGoal": 7,
+    "weeklyGoal": 6,
+    "weeklyHours": 9.1,
+    "dailyHours": 4.6,
+    "date": "2026-09-13",
+    "weekKey": "2026-09-07"
+  },
+  "application": {
+    "steps": [
+      {
+        "id": "app-1",
+        "title": "Build a balanced college list",
+        "category": "Research",
+        "done": false,
+        "order": 1
+      },
+      {
+        "id": "app-2",
+        "title": "Confirm application deadlines",
+        "category": "Research",
+        "done": false,
+        "order": 2
+      },
+      {
+        "id": "app-3",
+        "title": "Review admission requirements",
+        "category": "Research",
+        "done": false,
+        "order": 3
+      },
+      {
+        "id": "app-4",
+        "title": "Create application accounts",
+        "category": "Applications",
+        "done": true,
+        "order": 4
+      },
+      {
+        "id": "app-5",
+        "title": "Complete personal information",
+        "category": "Applications",
+        "done": true,
+        "order": 5
+      },
+      {
+        "id": "app-6",
+        "title": "Draft activities list",
+        "category": "Applications",
+        "done": true,
+        "order": 6
+      },
+      {
+        "id": "app-7",
+        "title": "Draft honors and awards",
+        "category": "Applications",
+        "done": true,
+        "order": 7
+      },
+      {
+        "id": "app-8",
+        "title": "Choose recommenders",
+        "category": "Recommendations",
+        "done": false,
+        "order": 8
+      },
+      {
+        "id": "app-9",
+        "title": "Request recommendation letters",
+        "category": "Recommendations",
+        "done": false,
+        "order": 9
+      },
+      {
+        "id": "app-10",
+        "title": "Draft personal statement",
+        "category": "Essays",
+        "done": false,
+        "order": 10
+      },
+      {
+        "id": "app-11",
+        "title": "Revise personal statement",
+        "category": "Essays",
+        "done": false,
+        "order": 11
+      },
+      {
+        "id": "app-12",
+        "title": "Complete supplemental essays",
+        "category": "Essays",
+        "done": false,
+        "order": 12
+      },
+      {
+        "id": "app-13",
+        "title": "Proofread all written responses",
+        "category": "Essays",
+        "done": false,
+        "order": 13
+      },
+      {
+        "id": "app-14",
+        "title": "Prepare testing information",
+        "category": "Academics",
+        "done": false,
+        "order": 14
+      },
+      {
+        "id": "app-15",
+        "title": "Review transcript and coursework",
+        "category": "Academics",
+        "done": false,
+        "order": 15
+      },
+      {
+        "id": "app-16",
+        "title": "Complete financial-aid forms",
+        "category": "Financial Aid",
+        "done": false,
+        "order": 16
+      },
+      {
+        "id": "app-17",
+        "title": "Search and track scholarships",
+        "category": "Financial Aid",
+        "done": false,
+        "order": 17
+      },
+      {
+        "id": "app-18",
+        "title": "Review application fees or waivers",
+        "category": "Applications",
+        "done": false,
+        "order": 18
+      },
+      {
+        "id": "app-19",
+        "title": "Final application review",
+        "category": "Applications",
+        "done": false,
+        "order": 19
+      },
+      {
+        "id": "app-20",
+        "title": "Submit applications and save confirmations",
+        "category": "Submission",
+        "done": false,
+        "order": 20
+      }
+    ]
+  },
+  "explore": {
+    "events": [
+      {
+        "id": "72526ddd-bf12-4b71-8832-55e9d188ecba",
+        "category": "major",
+        "action": "completed major assessment",
+        "createdAt": "2026-09-13T12:50:11.891Z"
+      },
+      {
+        "id": "64a52c29-6057-4992-b61d-e836fabfe2a7",
+        "category": "major",
+        "action": "completed major assessment",
+        "createdAt": "2026-09-13T12:59:30.021Z"
+      },
+      {
+        "id": "6d6bc633-5501-4ba3-9122-71e9854e1a4e",
+        "category": "college",
+        "action": "completed college fit",
+        "createdAt": "2026-09-13T12:59:59.205Z"
+      },
+      {
+        "id": "946e7b09-19ba-4141-961e-db24e63d7880",
+        "category": "college",
+        "action": "completed college fit",
+        "createdAt": "2026-09-13T13:00:18.113Z"
+      },
+      {
+        "id": "3a68bd7b-ac39-4698-8468-aed3a45df63d",
+        "category": "application",
+        "action": "completed application story",
+        "createdAt": "2026-09-13T13:01:25.014Z"
+      }
+    ],
+    "categories": {
+      "major": 1,
+      "college": 1,
+      "application": 4,
+      "resources": 0,
+      "planning": 1
+    }
+  },
+  "collegeFit": {
+    "answers": {
+      "size": "4",
+      "location": "4",
+      "cost": "4",
+      "culture": "4",
+      "programs": "5"
+    },
+    "score": 84,
+    "completed": true
+  },
+  "applicationStory": {
+    "answers": {
+      "experience": "I love it some much blah blah ablh",
+      "growth": "how i did do it i dont know. ",
+      "impact": "Hi hello whats up girlll i am a gril.",
+      "future": "do not ask me."
+    },
+    "completed": true
+  }
+}
