@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EVio — your AI college navigation and student success companion." />
+  <title>EVio — Your Guide. Your Learning Journey.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="sparkle-field" aria-hidden="true"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark"><img src="assets/evio-logo.svg" alt="EVio firefly logo"></div>
+        <div class="brand-copy">
+          <span class="brand-name">EVio</span>
+          <span class="brand-sub">your college companion</span>
+        </div>
+        <button class="icon-btn mobile-close" id="closeSidebar" aria-label="Close navigation">×</button>
+      </div>
+
+      <div class="sidebar-scroll">
+        <div class="nav-label">Explore</div>
+        <nav class="nav-list">
+          <button class="nav-item active" data-page="chatbot">
+            <span class="nav-icon">✦</span><span>EVio Chatbot</span>
+            <span class="nav-dot"></span>
+          </button>
+          <button class="nav-item" data-page="quiz">
+            <span class="nav-icon">⌁</span><span>Majors Quiz</span>
+          </button>
+          <button class="nav-item" data-page="dashboard">
+            <span class="nav-icon">◫</span><span>Dashboard</span>
+          </button>
+          <button class="nav-item" data-page="scholarships">
+            <span class="nav-icon">◇</span><span>Scholarships</span>
+          </button>
+          <button class="nav-item" data-page="planner">
+            <span class="nav-icon">◷</span><span>Academic Planner</span>
+          </button>
+        </nav>
+
+        <div class="nav-label">Workspace</div>
+        <nav class="nav-list">
+          <button class="nav-item" data-page="settings">
+            <span class="nav-icon">⚙</span><span>Settings</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-card">
+          <div class="mini-firefly">✦</div>
+          <strong>Keep exploring.</strong>
+          <p>EVio is built to help you make informed decisions—not make them for you.</p>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="profile-mini">
+          <div class="avatar">E</div>
+          <div><strong>Student</strong><span>Guest mode</span></div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn menu-toggle" id="openSidebar" aria-label="Open navigation">☰</button>
+        <div>
+          <div class="eyebrow" id="pageEyebrow">EVIO / GUIDE</div>
+          <h1 id="pageTitle">Meet EVio</h1>
+        </div>
+        <div class="top-actions">
+          <div class="status-pill"><span class="pulse"></span> Companion online</div>
+          <button class="avatar top-avatar" title="Profile">E</button>
+        </div>
+      </header>
+
+      <div class="content">
+        <!-- CHATBOT -->
+        <section class="page active" id="page-chatbot">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <span class="kicker">YOUR AI GUIDE</span>
+              <h2>Navigate what's next<br><em>with EVio.</em></h2>
+              <p>From choosing a major to preparing for college, EVio helps you turn big questions into clear next steps.</p>
+              <div class="hero-actions">
+                <button class="btn btn-primary" data-page-jump="quiz">Discover your major <span>→</span></button>
+                <button class="btn btn-ghost" data-page-jump="dashboard">Open dashboard</button>
+              </div>
+            </div>
+
+            <div class="hero-art">
+              <div class="art-glow"></div>
+              <img src="assets/evio-logo.svg" alt="EVio firefly" />
+              <div class="orbit orbit-a"></div>
+              <div class="orbit orbit-b"></div>
+              <div class="float-chip chip-one">✦ curious</div>
+              <div class="float-chip chip-two">+ 1 step</div>
+              <div class="float-chip chip-three">guided</div>
+            </div>
+          </div>
+
+          <div class="brand-banner">
+            <img src="assets/evio-banner.svg" alt="EVio — Who's your guide? EVio, the firefly" />
+          </div>
+
+          <div class="section-heading">
+            <div><span class="kicker">EVIO CHAT</span><h3>Ask anything about your college journey.</h3></div>
+            <span class="soft-tag">RAG-powered companion</span>
+          </div>
+
+          <div class="chat-card">
+            <div class="chat-card-top">
+              <div class="chat-title">
+                <div class="tiny-logo"><img src="assets/evio-logo.svg" alt=""></div>
+                <div><strong>EVio</strong><span>Your college navigation companion</span></div>
+              </div>
+              <span class="connection"><span></span> Ready</span>
+            </div>
+            <div class="iframe-wrap">
+              <iframe id="chatbotFrame" title="EVio AI Chatbot" src="about:blank" loading="lazy" allow="clipboard-write"></iframe>
+              <div class="iframe-placeholder" id="iframePlaceholder">
+                <div class="placeholder-orb">✦</div>
+                <h4>Connect your EVio chatbot</h4>
+                <p>Set <code>CHATBOT_URL</code> in <code>script.js</code> to your deployed Gradio/Hugging Face chatbot. The rest of this interface is pure HTML, CSS, and JavaScript.</p>
+              </div>
+            </div>
+            <div class="prompt-row">
+              <span>Try asking:</span>
+              <button data-prompt="How do I choose a college that fits me?">Find my college fit</button>
+              <button data-prompt="What should I focus on during junior year?">Junior-year priorities</button>
+              <button data-prompt="How can I improve my college application?">Improve my application</button>
+            </div>
+          </div>
+
+          <div class="feature-strip">
+            <div class="feature-card"><span class="feature-icon green">⌁</span><div><strong>Think before deciding</strong><p>Explore options, tradeoffs, and next steps.</p></div></div>
+            <div class="feature-card"><span class="feature-icon pink">◇</span><div><strong>Personalized guidance</strong><p>Advice shaped around your goals and interests.</p></div></div>
+            <div class="feature-card"><span class="feature-icon gold">✦</span><div><strong>Learn, don't just copy</strong><p>Hints, analogies, and explanations come first.</p></div></div>
+          </div>
+        </section>
+
+        <!-- QUIZ -->
+        <section class="page" id="page-quiz">
+          <div class="page-hero compact">
+            <div><span class="kicker">MAJOR ADVISOR</span><h2>Find directions, not a single answer.</h2><p>Explore majors based on interests, strengths, work preferences, and goals.</p></div>
+            <div class="hero-badge"><span id="quizCountBadge">24 questions</span><br><span>adaptive sample · 506-question bank</span></div>
+          </div>
+
+          <div class="quiz-layout">
+            <div class="panel quiz-panel">
+              <div class="quiz-progress"><div><span id="quizStep">Question 1 of 24</span><span id="quizPercent">4%</span></div><div class="progress-track"><span id="quizBar"></span></div></div>
+              <div id="quizQuestion"></div>
+              <div class="quiz-nav"><button class="btn btn-ghost" id="quizBack">Back</button><button class="btn btn-primary" id="quizNext">Next <span>→</span></button></div>
+            </div>
+            <aside class="panel quiz-side">
+              <span class="kicker">EVIO'S APPROACH</span>
+              <h3>Explore instead of forcing one decision.</h3>
+              <p>EVio's plan emphasizes interest assessment, strengths, career goals, learning preferences, and the reasoning behind recommendations.</p>
+              <div class="mini-list"><span>01</span> Interests & strengths</div>
+              <div class="mini-list"><span>02</span> Work style</div>
+              <div class="mini-list"><span>03</span> Career direction</div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- DASHBOARD -->
+        <section class="page" id="page-dashboard">
+          <div class="page-hero compact">
+            <div><span class="kicker">YOUR SPACE</span><h2>Keep your journey moving.</h2><p>A visual snapshot of goals, conversations, recommendations, and progress.</p></div>
+            <div class="streak"><span>✦</span><strong>7</strong><small>day streak</small></div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card"><span>Application progress</span><strong>64%</strong><div class="mini-progress"><i style="width:64%"></i></div><small>Keep building momentum</small></div>
+            <div class="stat-card"><span>Study goal</span><strong>4.5h</strong><small>of 6h this week</small><div class="ring-line"><i style="width:75%"></i></div></div>
+            <div class="stat-card"><span>Explore score</span><strong>82</strong><small>curiosity points</small><div class="sparkline">╱╲╱╱╲╱╲╱</div></div>
+            <div class="stat-card pink-stat"><span>Tasks remaining</span><strong>5</strong><small>2 high priority</small><div class="priority-dots"><i></i><i></i><i></i><i></i><i></i></div></div>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="panel">
+              <div class="panel-heading"><div><span class="kicker">UP NEXT</span><h3>Your focus</h3></div><button class="text-btn" data-page-jump="planner">Open planner →</button></div>
+              <div class="task"><span class="check"></span><div><strong>Research 3 colleges</strong><small>College fit · This week</small></div><span class="task-tag">High</span></div>
+              <div class="task"><span class="check"></span><div><strong>Draft activity list</strong><small>Application · Friday</small></div><span class="task-tag">Medium</span></div>
+              <div class="task done"><span class="check">✓</span><div><strong>Explore intended majors</strong><small>Completed today</small></div><span class="task-tag">Done</span></div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading"><div><span class="kicker">RECOMMENDED</span><h3>Explore next</h3></div></div>
+              <div class="recommend"><span class="rec-icon">⌁</span><div><strong>Major exploration</strong><small>Compare software, data, and engineering pathways.</small></div><span>→</span></div>
+              <div class="recommend"><span class="rec-icon pink">◇</span><div><strong>College fit</strong><small>Think about size, location, cost, culture, and programs.</small></div><span>→</span></div>
+              <div class="recommend"><span class="rec-icon gold">✦</span><div><strong>Application story</strong><small>Find the experiences that show growth and impact.</small></div><span>→</span></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="dashboard-detail-grid">
+          <div class="panel application-panel">
+            <div class="panel-heading"><div><span class="kicker">APPLICATION ROADMAP</span><h3>Complete your application process</h3></div><span class="progress-badge" id="applicationProgressBadge">0%</span></div>
+            <div class="application-progress"><i id="applicationProgressBar"></i></div>
+            <div id="applicationChecklist" class="application-checklist"></div>
+          </div>
+          <div class="panel study-goal-panel">
+            <div class="panel-heading"><div><span class="kicker">STUDY GOALS</span><h3>Set your own pace</h3></div></div>
+            <div class="study-goal-editor">
+              <label>Daily goal (hours)<input id="dailyStudyGoal" type="number" min="0" max="24" step="0.25"></label>
+              <label>Weekly goal (hours)<input id="weeklyStudyGoal" type="number" min="0" max="168" step="0.5"></label>
+              <button class="btn btn-primary btn-small" id="saveStudyGoals">Save goals</button>
+            </div>
+            <div class="study-log-row"><input id="studyHoursLog" type="number" min="0" max="24" step="0.25" placeholder="Hours studied"><button class="btn btn-ghost btn-small" id="logStudyHours">Log study time</button></div>
+            <div id="studyGoalSummary" class="goal-summary"></div>
+          </div>
+        </div>
+
+        <div class="panel explore-score-panel">
+          <div class="panel-heading"><div><span class="kicker">EXPLORE SCORE</span><h3>Build a stronger picture of what fits you</h3></div><strong class="explore-score-value" id="dashboardExploreScore">0</strong></div>
+          <div class="explore-meter"><i id="exploreScoreBar"></i></div>
+          <div class="explore-categories" id="exploreCategories"></div>
+        </div>
+
+        <div class="panel explore-next-panel">
+          <div class="panel-heading"><div><span class="kicker">RECOMMENDED</span><h3>Explore next</h3></div><span class="soft-tag">Based on your progress</span></div>
+          <div class="explore-next-grid" id="exploreNextGrid"></div>
+        </div>
+
+        <!-- SCHOLARSHIPS -->
+        <section class="page" id="page-scholarships">
+          <div class="page-hero compact">
+            <div><span class="kicker">RESOURCE HUB</span><h2>Make the cost conversation clearer.</h2><p>Explore financial-aid topics and scholarship resources without information overload.</p></div>
+            <div class="hero-badge">5 resource areas<br><span>curated view</span></div>
+          </div>
+          <div class="toolbar">
+            <div class="search-box"><span>⌕</span><input id="scholarshipSearch" placeholder="Search scholarships, FAFSA, merit aid..." /></div>
+            <div class="filter-pills"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="aid">Financial aid</button><button class="filter" data-filter="scholarship">Scholarships</button><button class="filter" data-filter="planning">Planning</button></div>
+          </div>
+          <div class="resource-grid" id="resourceGrid">
+            <article class="resource-card" data-category="scholarship"><span class="resource-label pink">SCHOLARSHIPS</span><h3>Scholarship search</h3><p>Build a focused search around eligibility, interests, deadlines, and fit.</p><button class="text-btn">Explore guide →</button></article>
+            <article class="resource-card" data-category="aid"><span class="resource-label green">FINANCIAL AID</span><h3>FAFSA & aid basics</h3><p>Understand federal aid, merit scholarships, need-based aid, and planning questions.</p><button class="text-btn">Learn the basics →</button></article>
+            <article class="resource-card" data-category="planning"><span class="resource-label gold">PLANNING</span><h3>Compare offers</h3><p>Keep award letters and college costs together so you can compare the full picture.</p><button class="text-btn">Open checklist →</button></article>
+            <article class="resource-card" data-category="scholarship"><span class="resource-label pink">RESOURCES</span><h3>Application strategy</h3><p>Organize deadlines and prioritize opportunities that genuinely match you.</p><button class="text-btn">Build a plan →</button></article>
+            <article class="resource-card" data-category="aid"><span class="resource-label green">AID</span><h3>Questions to ask</h3><p>Prepare questions about tuition, housing, financial aid, and possible appeals.</p><button class="text-btn">See prompts →</button></article>
+            <article class="resource-card" data-category="planning"><span class="resource-label gold">POST-ADMISSION</span><h3>After acceptance</h3><p>Track deposits, aid paperwork, housing, final transcripts, and other logistics.</p><button class="text-btn">View checklist →</button></article>
+          </div>
+        </section>
+
+        <!-- PLANNER -->
+        <section class="page" id="page-planner">
+          <div class="page-hero compact">
+            <div><span class="kicker">ACADEMIC PLANNER</span><h2>Turn “I should” into a schedule.</h2><p>Plan assignments, study sessions, goals, and priorities in one calm workspace.</p></div>
+            <button class="btn btn-primary" id="addTaskBtn">+ Add task</button>
+          </div>
+          <div class="planner-layout">
+            <div class="panel calendar-panel">
+              <div class="panel-heading"><div><span class="kicker">SEPTEMBER 2026</span><h3>This week</h3></div><div class="calendar-nav">‹ &nbsp; ›</div></div>
+              <div class="week-grid">
+                <div class="day"><small>MON</small><strong>14</strong><span class="day-dot"></span></div>
+                <div class="day active-day"><small>TUE</small><strong>15</strong><span class="day-dot"></span></div>
+                <div class="day"><small>WED</small><strong>16</strong></div>
+                <div class="day"><small>THU</small><strong>17</strong><span class="day-dot"></span></div>
+                <div class="day"><small>FRI</small><strong>18</strong><span class="day-dot"></span></div>
+                <div class="day"><small>SAT</small><strong>19</strong></div>
+                <div class="day"><small>SUN</small><strong>20</strong></div>
+              </div>
+              <div class="schedule">
+                <div class="schedule-item"><time>4:00 PM</time><div class="schedule-bar green-bar"><strong>Calculus study</strong><small>60 minutes · Focus session</small></div></div>
+                <div class="schedule-item"><time>6:30 PM</time><div class="schedule-bar pink-bar"><strong>College research</strong><small>45 minutes · 3 schools</small></div></div>
+                <div class="schedule-item"><time>8:00 PM</time><div class="schedule-bar gold-bar"><strong>Application notes</strong><small>30 minutes · Draft ideas</small></div></div>
+              </div>
+            </div>
+            <div class="panel goals-panel">
+              <div class="panel-heading"><div><span class="kicker">GOALS</span><h3>Weekly priorities</h3></div></div>
+              <div class="goal"><div class="goal-ring">75%</div><div><strong>Study consistency</strong><small>4.5 of 6 hours</small></div></div>
+              <div class="goal"><div class="goal-ring">40%</div><div><strong>College research</strong><small>2 of 5 colleges</small></div></div>
+              <div class="goal"><div class="goal-ring">90%</div><div><strong>Assignments</strong><small>9 of 10 complete</small></div></div>
+              <div class="pomodoro"><span>◷</span><div><strong>Focus timer</strong><small>25 min · ready</small></div><button class="round-btn" id="timerBtn">Start</button></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SETTINGS -->
+        <section class="page" id="page-settings">
+          <div class="page-hero compact">
+            <div><span class="kicker">SETTINGS</span><h2>Make EVio feel like yours.</h2><p>Adjust the experience, AI behavior, and accessibility preferences.</p></div>
+          </div>
+          <div class="settings-layout">
+            <div class="panel settings-menu">
+              <button class="setting-tab active" data-setting="appearance">Appearance</button>
+              <button class="setting-tab" data-setting="ai">AI behavior</button>
+              <button class="setting-tab" data-setting="accessibility">Accessibility</button>
+            </div>
+            <div class="panel settings-content">
+              <div class="setting-pane active" id="setting-appearance">
+                <span class="kicker">APPEARANCE</span><h3>Pink × green night</h3>
+                <p>Choose a complete EVio theme. Every theme is saved to the backend and applied across the app.</p>
+                <div class="theme-grid" id="themeGrid"></div>
+                <div class="settings-control-grid">
+                  <label>Glow intensity<select data-setting-input="glowIntensity"><option value="off">Off</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></label>
+                  <label>Card style<select data-setting-input="cardOpacity"><option value="solid">Solid</option><option value="glass">Glass</option><option value="airy">Airy</option></select></label>
+                  <label>Interface density<select data-setting-input="density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></label>
+                  <label>Font size<select data-setting-input="fontSize"><option value="small">Small</option><option value="medium">Medium</option><option value="large">Large</option></select></label>
+                </div>
+                <div class="toggle-row"><div><strong>Reduce motion</strong><small>Use simpler transitions and animations.</small></div><button class="toggle" data-setting-key="reducedMotion"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Reduce transparency</strong><small>Use more opaque surfaces for easier reading.</small></div><button class="toggle" data-setting-key="reducedTransparency"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Reduce flashing effects</strong><small>Disable pulsing and sparkle effects.</small></div><button class="toggle" data-setting-key="reducedFlashing"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Background effects</strong><small>Show the ambient firefly glow and star field.</small></div><button class="toggle on" data-setting-key="backgroundEffects"><i></i></button></div>
+              </div>
+              <div class="setting-pane" id="setting-ai">
+                <span class="kicker">AI BEHAVIOR</span><h3>Choose how EVio guides you.</h3>
+                <p>These preferences are persisted for your EVio experience. The chatbot remains an external iframe and its backend is intentionally unchanged.</p>
+                <div class="settings-control-grid">
+                  <label>Guidance style<select data-setting-input="guidanceStyle"><option value="balanced">Balanced</option><option value="socratic">Ask me first</option><option value="direct">More direct</option><option value="coach">Coach me</option></select></label>
+                  <label>Explanation depth<select data-setting-input="explanationDepth"><option value="short">Short</option><option value="medium">Medium</option><option value="deep">Deep</option></select></label>
+                </div>
+                <div class="toggle-row"><div><strong>Hints before solutions</strong><small>Ask guiding questions and offer progressively more detailed help.</small></div><button class="toggle on" data-setting-key="hintsBeforeSolutions"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Personalized context</strong><small>Use goals and preferences when available.</small></div><button class="toggle on" data-setting-key="personalizedGuidance"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Proactive suggestions</strong><small>Show useful next steps based on your activity.</small></div><button class="toggle on" data-setting-key="proactiveSuggestions"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Show confidence indicators</strong><small>Display when guidance is based on limited information.</small></div><button class="toggle on" data-setting-key="showConfidence"><i></i></button></div>
+              </div>
+              <div class="setting-pane" id="setting-accessibility">
+                <span class="kicker">ACCESSIBILITY</span><h3>Keep the experience comfortable.</h3>
+                <div class="toggle-row"><div><strong>High contrast surfaces</strong><small>Increase contrast between cards and background.</small></div><button class="toggle" data-setting-key="highContrast"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Larger text</strong><small>Increase interface text sizing.</small></div><button class="toggle" data-setting-key="largerText"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Strong focus indicators</strong><small>Make keyboard focus outlines more visible.</small></div><button class="toggle on" data-setting-key="focusIndicators"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Screen-reader optimized labels</strong><small>Use expanded accessible labels where supported.</small></div><button class="toggle" data-setting-key="screenReaderOptimized"><i></i></button></div>
+                <div class="toggle-row"><div><strong>Notifications</strong><small>Allow EVio's local reminders and completion feedback.</small></div><button class="toggle on" data-setting-key="notifications"><i></i></button></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <span>EVio · Who's your guide? EVio, the firefly.</span>
+        <span>Built with HTML · CSS · JavaScript</span>
+      </footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop"><div class="modal panel" id="modalContent"></div></div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>

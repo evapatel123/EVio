@@ -1,0 +1,7 @@
+{
+  "name": "evio-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EVio HTML/CSS/JavaScript frontend with a dependency-free Node backend. Chatbot remains an external iframe.",
+  "scripts": { "start": "node server.js" }
+}
