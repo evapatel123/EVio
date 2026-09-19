@@ -1,5 +1,5 @@
 /* EVio frontend + dependency-free backend client. Chatbot backend remains external. */
-const CHATBOT_URL = "PASTE_YOUR_CHATBOT_URL_HERE";
+const CHATBOT_URL = "https://vidhimaloo-evio-chatbot.hf.space";
 const API = "/api";
 const pages={chatbot:["EVIO / GUIDE","Meet EVio"],quiz:["EVIO / MAJOR ADVISOR","Majors Quiz"],dashboard:["EVIO / YOUR SPACE","Dashboard"],scholarships:["EVIO / RESOURCE HUB","Scholarships"],planner:["EVIO / PRODUCTIVITY","Academic Planner"],settings:["EVIO / PREFERENCES","Settings"]};
 const navItems=document.querySelectorAll(".nav-item"),pageEls=document.querySelectorAll(".page"),title=document.getElementById("pageTitle"),eyebrow=document.getElementById("pageEyebrow"),sidebar=document.getElementById("sidebar"),overlay=document.getElementById("sidebarOverlay");
